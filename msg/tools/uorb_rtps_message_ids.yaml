@@ -313,7 +313,7 @@ rtps:
     id: 148
   - msg: takeoff_status
     id: 149
-  - msg: airspeed_selector_wind_estimate
+  - msg: airspeed_wind
     id: 150
   ########## multi topics: begin ##########
   - msg: actuator_controls_0
