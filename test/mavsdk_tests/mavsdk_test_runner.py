@@ -512,10 +512,10 @@ class Tester:
             "description": "SITL integration test - {}: '{}' -> {}"
             .format(model, case, result_str),
             "feedback":
-                "{}/{}/actions/runs/{}"
+                "{}/{}/runs/{}"
                 .format(os.getenv("GITHUB_SERVER_URL"),
                         os.getenv("GITHUB_REPOSITORY"),
-                        os.getenv("GITHUB_RUN_ID")),
+                        os.getenv("GITHUB_RUN_NUMBER")),
             "email": "",
             "source": "CI",
             "videoUrl": "",
